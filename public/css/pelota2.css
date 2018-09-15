@@ -1,0 +1,68 @@
+.animation-7
+{
+    position:absolute;
+    width:30px;
+    margin: 15% auto;
+}
+.animation-7 .ball
+{
+    position:absolute;
+    border-radius:20px;
+    height:40px;
+    width:40px;
+    margin-bottom:-5px;
+    background-color:red;
+    -webkit-animation: animation7 1s ease-in-out infinite;
+    animation: animation7 1s ease-in-out infinite;
+    z-index:2;
+    top:-23px;
+    left:5px;
+}
+
+@-webkit-keyframes animation6
+{
+
+    20%
+    {
+        transform: translate(0,-40px);
+    }
+    35%
+    {
+        transform: translate(0,-45px);
+    }
+    90%
+    {
+        transform: translate(0,-50px);
+    }
+    95%
+    {
+        transform: translate(0,-40px);
+    }
+
+}
+
+.animation-7 .shadow
+{
+    position:absolute;
+    -webkit-animation: animation7-shadow 3s infinite;
+    animation: animation7-shadow 3s infinite;
+    width:45px;
+    height:25px;
+    border-radius:25px / 14px;
+    background-color:#18BC9C;
+
+}
+
+@-webkit-keyframes animation7-shadow
+{
+    70%
+    {
+        transform:  scale(0.5);
+        opacity:0.5;
+    }
+    100%
+    {
+        transform:  scale(0.4);
+        opacity:0.4;
+    }
+}

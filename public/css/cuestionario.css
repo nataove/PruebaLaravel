@@ -1,0 +1,209 @@
+.btn-breadcrumb{
+  width: 100%;
+  background-color: #fff;
+  border-radius: 4px;
+  border: solid 1px #ccc;
+  height: 30px;
+}
+.btn-breadcrumb .btn{
+  border-color: transparent; border: 0px solid transparent;
+  border-right: 1px solid transparent !important; 
+  font-size: 12px;
+}
+.btn-primary,.breadcrumb-primary{ background-color: #2C3E50; }
+.btn-primary:hover{background-color: #18BC9C;}
+
+.btn-breadcrumb .btn:last-child {background-color: #18BC9C;}
+.btn-breadcrumb .btn:last-child:after{margin-left: -2px;}
+.btn-breadcrumb .btn:last-child:before{margin-left: -1px;}
+
+.btn-breadcrumb .btn-derecha{
+  float: right;
+  margin-right: 0px;
+  padding: 6px 10px 6px 10px !important;
+  margin-left: 0px !important;
+  border-radius: 0px !important; 
+}
+.btn-breadcrumb .btn-derecha:first-child { 
+  border-top-right-radius: 2px !important; 
+  border-bottom-right-radius: 2px !important; 
+}
+
+.btn-breadcrumb .btn-derecha:after, .btn-breadcrumb .btn-derecha:before{
+  content: none !important;
+}
+
+.btn-breadcrumb .btn:after {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-left: 10px solid white;
+  position: absolute;
+  top: 50%;
+  margin-top: -14px;
+  margin-left: 0px;
+  left: 100%;
+  z-index: 3;
+}
+.btn-breadcrumb .btn:before {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-left: 10px solid rgb(173, 173, 173);
+  position: absolute;
+  top: 50%;
+  margin-top: -14px;
+  margin-left: 1px;
+  left: 100%;
+  z-index: 3;
+}
+
+.btn-breadcrumb .btn {padding:6px 12px 6px 24px;}
+.btn-breadcrumb .btn:first-child {padding:6px 6px 6px 10px;}
+.btn-breadcrumb .btn:last-child {padding:6px 18px 6px 24px;}
+
+.btn-breadcrumb .btn.btn-primary:after {border-left: 10px solid #2C3E50;}
+.btn-breadcrumb .btn.btn-primary:hover:after {border-left: 10px solid #18BC9C;}
+.btn-breadcrumb .btn.btn-primary:hover:before, .btn-breadcrumb .btn.btn-primary:before {border-left: 10px solid #fff;}
+.breadcrumb-primary{ border: solid 1px #fff; }
+
+.btn-breadcrumb > * > div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;    
+}
+
+.btn-breadcrumb > *:nth-child(n+2) {
+  display:none;
+}
+
+@media (max-width: 767px) {
+    .btn-breadcrumb > *:nth-last-child(-n+2) {
+        display:block;
+    } 
+    .btn-breadcrumb > * div {
+        max-width: 60px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .btn-breadcrumb > *:nth-last-child(-n+4) {
+        display:block;
+    } 
+    .btn-breadcrumb > * div {
+        max-width: 100px;
+    }
+}
+
+@media (min-width: 992px) {
+    .btn-breadcrumb > *:nth-last-child(-n+6) {
+        display:block;
+    } 
+    .btn-breadcrumb > * div {
+        max-width: 370px;
+    }
+}
+
+.bread .btn-primary{
+  background-color: #2C3E50 !important;
+  color: #18BC9C;
+
+}
+
+.bread .btn-primary:hover{
+  background-color: #18BC9C !important;
+  color: #fff;
+
+}
+
+.bread .sel:hover{
+  background-color: #2C3E50 !important;
+  color: #fff;
+
+}
+
+.btn-breadcrumb .btn.btn-primary.sel:hover:after {border-left: 10px solid #2C3E50;}
+
+.bread .sel{
+ color: #fff;
+ cursor: default !important;
+}
+
+
+.titulo h3{
+  color: #2C3E50;
+}
+
+.cuest .nav-item{
+  margin-left: 3px;
+}
+
+.cuest .nav-link {
+  background: #2C3E50 !important;
+  border: 1px solid transparent;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+  color: #fff;
+  width: 50px;
+  height: 40px;
+  font-size: 16px;
+}
+
+.cuest .nav-link.active,
+.cuest .nav-item.show .nav-link {
+  color: #fff;
+  background-color: #18BC9C !important;
+}
+
+.respuestas{
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  padding-left: 10px;
+}
+
+.subir{
+    padding: 5px 10px;
+    background: #2C3E50;
+    color:#fff;
+    border-radius: 5px;
+    border:0px solid #fff;
+    cursor: pointer;
+    width: 140px;
+}
+ 
+.subir:hover{
+    color:#fff;
+    background: #18BC9C;
+}
+
+#contenedor{
+width: 100%;
+
+margin: 0 auto;
+height: 100%;
+background: #fff;
+box-shadow: 0px 0px 20px black;
+border-radius: 6px;
+box-sizing: border-box;
+overflow: hidden;
+margin-bottom: 50px;
+}
+
+#section{
+
+width: 100%;
+
+padding: 2%;
+
+border-radius: 6px;
+box-sizing: border-box;
+}
+
+

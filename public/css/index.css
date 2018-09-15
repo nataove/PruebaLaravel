@@ -1,0 +1,242 @@
+.colorInicio{
+	background-color:#00ADB3;
+}
+
+ .panel-group .panel-heading{
+  border-bottom:0;
+}
+
+ .panel-group .panel-heading+.panel-collapse>.list-group,
+ .panel-group .panel-heading+.panel-collapse>.panel-body{
+  border-top:1px solid #ddd;
+
+}
+  .panel-group .panel-footer{
+    border-top:0;
+  }
+
+  .panel-group .panel-footer+.panel-collapse .panel-body{
+    border-bottom:1px solid #ddd;
+  }
+  
+  .panel-default{
+    border-color:#18BC9C !important;
+  }
+  
+  .panel-default>.panel-heading{
+    color:#fff;
+    background-color:#18BC9C;
+    border-color:#ddd;
+  }
+  
+  .panel-default>.panel-heading+.panel-collapse>.panel-body{
+    border-top-color:#ddd;
+  }
+  
+  .panel-default>.panel-heading .badge{
+    color:#f5f5f5;
+    background-color:#333;
+  }
+  
+  .panel-default>.panel-footer+.panel-collapse>.panel-body{
+    border-bottom-color:#ddd;
+  }
+
+   .btn-primary{
+    color:#fff;
+    background-color:#18BC9C !important;
+}
+
+.btn-primary.focus,
+.btn-primary:focus{
+  opacity: 0.7 !important;
+}
+
+.btn-primary:hover{
+  opacity: 0.7 !important;
+  color:#fff;
+}
+
+.panel{
+  margin-bottom:20px;
+  font-size: 15px;
+  background-color:#fff;
+  border:1px solid transparent;
+  border-radius:4px;
+  -webkit-box-shadow:0 1px 1px rgba(0,0,0,.05);
+  box-shadow:0 1px 1px rgba(0,0,0,.05);
+}
+
+  .panel-body{
+    padding:15px;
+  }
+
+  .panel-heading{
+    padding:10px 15px;
+    border-bottom:1px solid transparent;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+  }
+
+nav.navbar{
+  background-color: #2C3E50;
+  height: 60px;
+  font-size: 11px;
+  opacity: .99;
+  font-family: "FontAwesome";
+}
+
+nav.navbar .men{
+  font-size: 14px;
+}
+
+button .navbar-toggler{
+  color: #fff;
+}
+
+nav.navbar .navbar-brand {
+  color: #fff;
+  font-size: 2.1em;
+   font-family:"Helvetica";
+  /*font-family:'Claphappy';*/
+
+}
+
+body {
+	text-align: center;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+.modal {
+	width: 100%;
+	height: 100vh;
+	background: rgba(0,0,0,0.8);
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	display: flex;
+	
+	animation: modal 0s forwards;
+	visibility: hidden;
+	opacity: 0;
+}
+
+
+.contenido {
+	margin: auto;
+	width: 40%;
+	height: 40%;
+	background: white;
+	border-radius: 10px;
+}
+
+
+
+#cerrar:checked + label, #cerrar:checked ~ .modal {
+	display: none;
+}
+
+@keyframes modal {
+	100% {
+		visibility: visible;
+		opacity: 1;
+	}
+}
+
+nav.navbar .navbar-brand:hover{
+  color: #fff;
+}
+form {
+  width: 80%;
+  margin: 0 auto;
+  text-align:
+}
+
+.right{
+    float: right;
+    
+}
+nav.navbar ul li {
+  font-size: 1.2em;
+  font-family:"Helvetica";
+  /*font-family: 'Claphappy';*/
+}
+
+nav.navbar .navbar-nav li.nav-item a.nav-link {
+  color: #fff;
+}
+
+nav.navbar .navbar-nav li.nav-item a.nav-link:hover {
+  color: #18BC9C;
+}
+
+nav.navbar .navbar-nav li.nav-item a.nav-link.active {
+  color: #18BC9C;
+}
+
+header.bg-primary {
+  background-color: #18BC9C !important;
+}
+
+.copyright {
+  background-color: #1a252f;
+}
+
+.modal-content {
+padding: 1em;
+margin: 1em;
+box-shadow: .25em .25em 0 #ccc;
+}
+ 
+#drag-drop {
+height: 8em;
+width: 8em;
+background-color: #ccc;
+border-radius: 4em;
+text-align: center;
+color: white;
+position: relative;
+margin: 0 auto 1em;
+background-image: url("/images/usuarios/iconoVacio.png");
+height: 110px;
+width: 110px;
+margin: auto;
+background-size: cover;
+background-position: center;
+}
+
+ 
+input[type="file"] {
+height: 10em;
+opacity: 0;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%; 
+}
+ 
+#drag-drop:hover, input[type="file"]:hover {
+background-color: #00ADB3;
+cursor: pointer;
+}
+ 
+ #add, #add1{
+  background-color: #00ADB3;
+ }
+
+#add:hover{
+  opacity: 0.7;
+ }
+
+ #add1:hover{
+  opacity: 0.7;
+ }
+  #error{
+  display: none;
+ }
+ #errorLogin{
+  display: none;
+ }

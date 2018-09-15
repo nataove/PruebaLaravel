@@ -1,0 +1,182 @@
+
+* {box-sizing:border-box}
+
+
+.mySlides {
+    display: none;
+}
+
+.mySlides1 {
+    display: none;
+}
+
+.mySlides2 {
+    display: none;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 86400s;
+  animation-name: fade;
+  animation-duration: 86400s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .9} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .9} 
+  to {opacity: 1}
+}
+
+
+.fondoDep{
+  background-color: #fff !important;
+  border: 1px solid #2C3E50 !important; 
+  border-top: 5px solid #2C3E50 !important; 
+}
+
+@media (min-width: 576px) {
+    .fondoDep{
+      height: 900px;
+    }
+}
+
+@media (min-width: 768px) {
+ .fondoDep{
+      height: 700px;
+    }
+}
+
+@media (min-width: 992px) {
+  .fondoDep{
+      height: 550px;
+    }
+}
+
+@media (min-width: 1200px) {
+  .fondoDep{
+      height: 500px;
+    }
+}
+
+
+.fondo{
+  background-color: #fff !important;
+  border-top: 5px solid #18BC9C !important; 
+}
+
+.saludo{
+  padding-left: 25px;
+  color: #2C3E50;
+}
+
+.top{
+    padding-top: 10px;
+}
+
+.btnEmpieza{
+  background-color: #18BC9C !important; 
+}
+
+hr{
+  margin-top: 0;
+  color: #ccc;
+  height: 0px;
+  border:1px dashed;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.numeral{
+  background-color: #ccc;
+  height: 25px;
+  width: 80px;
+  padding-top: 5px;
+  color: #2C3E50;
+}
+
+.btnLineal{
+  color: #2C3E50;
+  font-size: 15px;
+  width: 80px;
+  cursor: pointer;
+}
+
+.btnLineal2{
+  color: #2C3E50;
+  font-size: 15px;
+  width: 80px;
+  cursor: pointer;
+  text-align: right;
+}
+
+.i{
+  margin-top: -10px;
+  font-size: 40px;
+  color: #18BC9C !important;
+  cursor: pointer;
+}
+
+.i2{
+  margin-top: -10px;
+  font-size: 40px;
+  color: #18BC9C !important;
+  cursor: pointer;
+  text-align: right;
+  margin-left: 80px;
+}
+
+.tituloTema{
+  padding-left: 10px;
+}
+
+.mov h2{
+   color: #2C3E50;
+}
+
+.vertical-center{
+  height:100px;
+  line-height:100px;
+}
+
+.vertical-center>a {
+  display:inline-block;
+  vertical-align:middle;
+  line-height:normal;
+}
+
+.tema{
+  background-color: #000;
+  border: 1px solid #808080;
+  border-radius: 5px;
+  background: #F0F0F1;
+  padding: 50px;
+}
+
+.btnIn{
+  background-color: #000;
+  border: 1px solid #808080;
+  border-radius: 5px;
+  background: #F0F0F1;
+}
+
+.btnIn:hover{
+  background: #fff;
+}
+
+.btnIn img:hover{
+  cursor: pointer;
+}
+
+.btnIn h4:hover{
+  cursor: pointer;
+  text-decoration: underline;
+
+}
+.btnIn h4{
+  color: #2C3E50 ;
+  font-size: 18px;
+}
